@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width">
         <!-- Title block allowing child pages to override -->
-        <title>AA Compliance Cheat Sheet</title>
+        <title>Comrade Accessibility Guide: AA Compliance Cheat Sheet</title>
         <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
         <!-- Styles -->
@@ -14,57 +14,59 @@
     </head>
     <body>
         <div id="wrapper">
-            <!-- Include -->
-			<nav>
+			<!-- Include -->
+						<nav>
 				<section>
+					<a href="#first_section" class="skipnav">Skip Navigation</a>
 					<a href="https://github.com/Comrade"><img class="logo" src="assets/img/comrade_logo.png" alt="comrade github" /></a>
+					<ul><li><a href="/">Overview</a></li><li class="selected"><a href="/cheatsheet.html" class="selected">Cheatsheet</a></li><li><a href="/links.html">Links</a></li><li><a href="/markup-examples.html">Markup Examples</a></li></ul>
 				</section>
 			</nav>
-			<header id="top">
-				<section class="hero">
-					<div class="full">
-						<h1>AA Compliance Cheat Sheet</h1>
-						<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php">Compiled from the W3.org WAI/WCAG 2.0 Accessibility Checklist</a>				
-					</div>	
-				</section>
-			</header>
-             
-			<section>	
-				<h1>Table of Contents</h1>
-				<div class="flex">
-					<dl>
-						<dt>1.1 <a href="#text-equiv"><strong>Text Alternatives</strong></a></dt>
-						<dd>Provide text alternatives for any non-text content.</dd>
-						<dt>1.2 <a href="#media-equiv"><strong>Time-based Media</strong></a></dt>
-						<dd>Provide alternatives for time-based media.</dd>
-						<dt>1.3 <a href="#content-structure-separation"><strong>Adaptable</strong></a></dt>
-						<dd>Create content that is adaptable without losing information or structure.</dd>
-						<dt>1.4 <a href="#visual-audio-contrast"><strong>Distinguishable</strong></a></dt>
-						<dd>Make it easier for users to see and hear content.</dd>
-					</dl>
-					<dl>
-						<dt>2.1 <a href="#keyboard-operation"><strong>Keyboard Accessible</strong></a></dt>
-						<dd>Make all functionality available from a keyboard.</dd>
-						<dt>2.2 <a href="#time-limits"><strong>Enough Time</strong></a></dt>
-						<dd>Provide users enough time to read and use content.</dd>
-						<dt>2.3 <a href="#seizure"><strong>Seizures</strong></a></dt>
-						<dd>Do not design content in a way that is known to cause seizures.</dd>
-						<dt>2.4 <a href="#navigation-mechanisms"><strong>Navigable</strong></a></dt>
-						<dd>Provide ways to help users navigate, find content, and determine where they are.</dd>
-					</dl>
-					<dl>
-						<dt>3.1 <a href="#meaning"><strong>Readable</strong></a></dt>
-						<dd>Make text content readable and understandable.</dd>
-						<dt>3.2 <a href="#consistent-behavior"><strong>Predictable</strong></a></dt>
-						<dd>Make Web pages appear and operate in predictable ways.</dd>
-						<dt>3.3 <a href="#minimize-error"><strong>Input Assistance</strong></a></dt>
-						<dd>Help users avoid and correct mistakes.</dd>
-						<dt>4.1 <a href="#ensure-compat"><strong>Compatible</strong></a></dt>
-						<dd>Maximize compatibility with current and future user agents, including assistive technologies.</dd>
-					</dl>	
-				</div>
-			</section>
-
+			<!-- Content block, child page inject content -->
+			 
+<header id="top">
+	<section class="hero">
+		<div class="full">
+			<h1>AA Compliance Cheat Sheet</h1>
+			<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php">Compiled from the W3.org WAI/WCAG 2.0 Accessibility Checklist</a>				
+		</div>	
+	</section>
+</header>
+<section>	
+	<h1>Table of Contents</h1>
+	<div class="flex">
+		<dl>
+			<dt>1.1 <a href="#text-equiv"><strong>Text Alternatives</strong></a></dt>
+			<dd>Provide text alternatives for any non-text content.</dd>
+			<dt>1.2 <a href="#media-equiv"><strong>Time-based Media</strong></a></dt>
+			<dd>Provide alternatives for time-based media.</dd>
+			<dt>1.3 <a href="#content-structure-separation"><strong>Adaptable</strong></a></dt>
+			<dd>Create content that is adaptable without losing information or structure.</dd>
+			<dt>1.4 <a href="#visual-audio-contrast"><strong>Distinguishable</strong></a></dt>
+			<dd>Make it easier for users to see and hear content.</dd>
+		</dl>
+		<dl>
+			<dt>2.1 <a href="#keyboard-operation"><strong>Keyboard Accessible</strong></a></dt>
+			<dd>Make all functionality available from a keyboard.</dd>
+			<dt>2.2 <a href="#time-limits"><strong>Enough Time</strong></a></dt>
+			<dd>Provide users enough time to read and use content.</dd>
+			<dt>2.3 <a href="#seizure"><strong>Seizures</strong></a></dt>
+			<dd>Do not design content in a way that is known to cause seizures.</dd>
+			<dt>2.4 <a href="#navigation-mechanisms"><strong>Navigable</strong></a></dt>
+			<dd>Provide ways to help users navigate, find content, and determine where they are.</dd>
+		</dl>
+		<dl>
+			<dt>3.1 <a href="#meaning"><strong>Readable</strong></a></dt>
+			<dd>Make text content readable and understandable.</dd>
+			<dt>3.2 <a href="#consistent-behavior"><strong>Predictable</strong></a></dt>
+			<dd>Make Web pages appear and operate in predictable ways.</dd>
+			<dt>3.3 <a href="#minimize-error"><strong>Input Assistance</strong></a></dt>
+			<dd>Help users avoid and correct mistakes.</dd>
+			<dt>4.1 <a href="#ensure-compat"><strong>Compatible</strong></a></dt>
+			<dd>Maximize compatibility with current and future user agents, including assistive technologies.</dd>
+		</dl>	
+	</div>
+</section>
 			<section id="text-equiv">
 				<h1>Text Alternatives</h1>
 				<p class="heading">Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.</p>
@@ -74,11 +76,10 @@
 				<p>Images that are purely decorative and may disrupt the readability of the content or that reiterate content already displayed as text should contain minor alt text.</p>
 				<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php#text-equiv">Go to the <strong>Text Alternatives</strong> Section of the WAI Checklist for more in depth coverage</a>
 				<br>
-				<a href="#future">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible images.</a>
+				<a href="markup-examples.html">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible images.</a>
 				<br>	
 				<a href="#top">&#8679; Back top Top</a>
 			</section>
-
 			<section id="media-equiv">
 				<h1>Time-based Media/Captions/Audio Description or Media Alternative</h1>
 				<p class="heading">This is important only if the information in the media is available only in said media and not a video/audio repetition of information already provided in the content of the site via text.</p>
@@ -88,7 +89,6 @@
 				<br>
 				<a href="#top">&#8679; Back top Top</a>
 			</section>
-
 			<section id="content-structure-separation">
 				<h1>Adaptable</h1>
 				<p class="heading">Create content that can be presented in different ways (for example simpler layout) without losing information or structure.</p>
@@ -126,12 +126,11 @@
 				<div class="full">
 					<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php#content-structure-separation">Go to the <strong>Adaptable</strong> Section of the WAI Checklist for more in depth coverage.</a>
 					<br>
-					<a href="#future">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible forms.</a>
+					<a href="markup-examples.html">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible forms.</a>
 					<br>
 					<a href="#top">&#8679; Back top Top</a>
 				</div>
 			</section>
-
 			<section id="visual-audio-contrast">
 				<h1>Distinguishable</h1>
 				<p class="heading">Make it easier for users to see and hear content including separating foreground from background</p>
@@ -192,7 +191,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>	
 			</section>
-
 			<section id="keyboard-operation">
 				<h1>Keyboard Accessible</h1>
 				<p class="heading">Make all functionality available from a keyboard.</p>
@@ -204,7 +202,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>	
 			</section>
-
 			<section id="time-limits">
 				<h1>Enough Time</h1>
 				<p class="heading">Provide users enough time to read and use content.</p>
@@ -220,7 +217,7 @@
 						<h3>Example</h3>
 						<div class="no-hide">
 							<figure class="slide1">
-								<img class="col-6" src="assets/img/slide-3.jpg" alt="A cat with some popcorn">
+								<img class="col-6" src="assets/img/slide-3.jpg" alt="Space dogs!">
 								<figcaption>
 									These dogs are so cool!<br>
 									They went to outer space! Wow!
@@ -244,7 +241,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>
 			</section>
-
 			<section id="seizure">
 				<h1>Seizures</h1>
 				<p class="heading">Do not design content in a way that is known to cause seizures</p>
@@ -257,7 +253,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>	
 			</section>
-
 			<section id="navigation-mechanisms">
 				<h1>Navigable</h1>
 				<p class="heading">Provide ways to help users navigate, find content, and determine where they are.</p>
@@ -303,7 +298,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>				
 			</section>
-
 			<section id="meaning">
 				<h1>Readable</h1>
 				<p class="heading">Make text content readable and understandable.</p>
@@ -317,7 +311,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>				
 			</section>
-
 			<section id="consistent-behavior">
 				<h1>Predictable</h1>
 				<p class="heading">Make Web pages appear and operate in predictable ways.</p>
@@ -351,7 +344,6 @@
 					<a href="#top">&#8679; Back top Top</a>
 				</div>
 			</section>
-
 			<section id="minimize-error">
 				<h1>Input Assistance</h1>
 				<p class="heading">Help users avoid and correct mistakes</p>
@@ -415,13 +407,12 @@
 				<div class="full">
 					<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php#minimize-error">Go to the <strong>Input Assistance</strong> Section of the WAI Checklist for more information.</a>
 					<br>
-					<a href="#future">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible forms.</a>
+					<a href="markup-examples.html">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible forms.</a>
 					<br>
 					<a href="#top">&#8679; Back top Top</a>
 				</div>			
 			</section>
-
-			<section id="ensure-compat">
+			<section id="ensure-compat" class="last">
 				<h1>Compatible</h1>
 				<p class="heading">Maximize compatibility with current and future user agents, including assistive technologies.</p>
 				<div class="full">
@@ -443,14 +434,13 @@
 				<div class="full">
 					<a href="http://www.w3.org/WAI/WCAG20/quickref/Overview.php#ensure-compat">Go to the <strong>Compatible</strong> Section of the WAI Checklist for more information.</a>
 					<br>
-					<a href="#future">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible sites.</a>
+					<a href="markup-examples.html">Go to the <strong>markup examples</strong> page to see some examples of how to code accessible sites.</a>
 					<br>		
 					<a href="#top">&#8679; Back top Top</a>
 				</div>
 			</section>
 
 
-			
 						<footer>
 				<section>
 					<div class="col-3">
